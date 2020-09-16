@@ -14,21 +14,29 @@ li {
     padding: 10px;
     margin: 5px 40px;
     background-color: rgb(66, 64, 64);
-    color: rgb(216, 59, 106);
+    color:inherit;
+    text-decoration: none;
 }
 
 section {
     background-color: darkgray;
     border: 1px red solid;
     margin: 10px 0px;
+    
 }
 
 img {
     border: solid black 1px;
+    margin: 10px;
+    text-align: center;
 }
 
 #lords {
     width: 300px;
+}
+
+#revan, #malgus {
+    height: 200px;
 }
 
 .sith{
@@ -40,5 +48,9 @@ p {
     display: inline-block;
     width: 700px;
     margin-top: auto;
-    margin-bottom: auto;
+    padding: 5px;
+}
+
+a {
+    color: rgb(216, 59, 106);
 }
