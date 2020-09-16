@@ -1,0 +1,44 @@
+body {
+    background-color:bisque;
+}
+
+header, footer {
+    background-color: rgb(31, 30, 30);
+    color: rgb(231, 39, 39);
+    text-align: center;
+}
+
+li {
+    border: solid white 1px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 40px;
+    background-color: rgb(66, 64, 64);
+    color: rgb(216, 59, 106);
+}
+
+section {
+    background-color: darkgray;
+    border: 1px red solid;
+    margin: 10px 0px;
+}
+
+img {
+    border: solid black 1px;
+}
+
+#lords {
+    width: 300px;
+}
+
+.sith{
+    border-radius: 20px;
+}
+
+p {
+    border: solid black 1px;
+    display: inline-block;
+    width: 700px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
