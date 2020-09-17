@@ -1,0 +1,63 @@
+body {
+    background-color:bisque;
+}
+
+header, footer {
+    background-color: rgb(31, 30, 30);
+    color: rgb(231, 39, 39);
+    text-align: center;
+}
+
+li {
+    border: solid white 1px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 40px;
+    background-color: rgb(66, 64, 64);
+    color:inherit;
+    text-decoration: none;
+}
+
+section {
+    background-color: darkgray;
+    border: 1px red solid;
+    margin: 10px 0px;
+    white-space: auto;
+    line-height: 1.5em;
+}
+
+img {
+    border: solid black 1px;
+    margin: 10px;
+    /* text-align: center; */
+}
+
+#lords {
+    width: 300px;
+    /* float: left; */
+}
+
+/* #lord {
+    float: right;
+} */
+
+#revan, #malgus {
+    height: 200px;
+}
+
+.sith{
+    border-radius: 20px;
+}
+
+p {
+    border: solid black 1px;
+    display: inline-block;
+    width: 700px;
+    margin-top: 10px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+a {
+    color: rgb(216, 59, 106);
+}
